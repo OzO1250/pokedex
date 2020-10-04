@@ -1,4 +1,5 @@
 import requests
+import argparse
 import read_gsheet as gsheet
 import compare_lists as cmp
 from datetime import datetime
@@ -37,4 +38,6 @@ def api_call(offset):
 # this means that if this script is executed, then
 # main() will be executed
 if __name__ == '__main__':
-    main()
+	parser = argparse.ArgumentParser(description="Step 1. Input an integer to start loading Pokémon from the position in the Pokédex. \nStep 2. After the initial 20 Pokémon load type 'y' to keep loading new Pokémon or simply press Enter to finish.", formatter_class=argparse.RawTextHelpFormatter)
+	args = parser.parse_args()
+	main()
