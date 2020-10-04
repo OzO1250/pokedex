@@ -57,9 +57,10 @@ def read_file():
             pokemon.append(row)
             # Print columns A and E, which correspond to indices 0 and 4.
             #print('%s' % row)
-        print('%s' % pokemon)
+        #print('%s' % pokemon)
         return pokemon
 
+#Write the GSheet file with the new array of Pokemon, combination of the API call and the GSheet initial reading
 def write_file(poke):
     pokemon = poke
     service = verify_credentials()

@@ -1,3 +1,4 @@
+#This function compare the Pokemon in both the API call and the GSheet file, then create a new array merging both Pokemon but removing the duplicates
 def compare_poke(api_list, gsheet_list):
     a = api_list
 
