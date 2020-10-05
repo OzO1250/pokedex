@@ -9,11 +9,11 @@ Run the following command to install the library using pip:
 
 **Step 2:** Run the pokedex.py script.
 
-`python3 pokedex.py`
+`python pokedex.py`
 
 ***Note:*** You can add the -h argument to get help on how to use the script first
 
-`python3 pokedex.py -h`
+`python pokedex.py -h`
 
 **Step 3:** Pokémon are sorted by number, and organized by pages with 20 records each, please select an initial Offset to start loading Pokémon, that is, select from which number you want to start seeing results.
 
