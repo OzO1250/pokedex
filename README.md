@@ -22,3 +22,4 @@ Run the following command to install the library using pip:
 Type **"y"** and press ENTER if you wanto load 20 more Pokémon OR just press Enter to finish.
 
 **Step 5:** Finally, open the Spreadsheet: https://docs.google.com/spreadsheets/d/1DQVQnKuKEL6gwLF9q4cnzKSUrNP23w52J-BOAe0ZRZE/edit?usp=sharing to check your results.
+Previous results input in the file will be merged with the new records obtain from the Pokémon API.
