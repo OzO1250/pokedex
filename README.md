@@ -2,10 +2,12 @@
 
 ### Installation & Run intructions
 
-**Step 1:** Install the Google Client Library
-Run the following command to install the library using pip:
+**Step 1:** Install the Google Client Library and the Request library
+Run the following commands to install the required libraries using pip:
 
 `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+
+`pip install requests`
 
 **Step 2:** Run the pokedex.py script.
 
